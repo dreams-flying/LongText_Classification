@@ -38,7 +38,7 @@ predict.py
 | 数据集 | accuracy |
 | :------:| :------: |
 | dev | 0.60562 |
-| test |  |
+| test | 0.6023 |
 # Note
 iflytek_clssification_train.py可单独使用，其本身就是一个分类模型，第4步可以直接用BERT提取特征向量；</br>
 也可以利用训练数据先在bert进行finetune，得到新的模型文件，然后再进行第4步。
